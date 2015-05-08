@@ -10,4 +10,4 @@ sudo apt-get install git qemu-kvm virt-manager python2.7 idle-python2.7 sublime-
 
 echo ' '
 echo 'Installing pip packages'
-sudo pip install django flask bottle 
+sudo pip install django flask bottle
