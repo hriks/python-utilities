@@ -8,6 +8,10 @@ sudo apt-get install sublime-text-installer git qemu-kvm virt-manager python2.7 
 
 sudo apt-get install ansible python-pip vlc make vim traceroute nmap 
 
+echo 'Installing languages'
+
+sudo apt-get install openjdk-7-jdk openjdk-7-jre
+
 echo ' '
 echo 'Installing pip packages'
 sudo pip install django flask bottle
