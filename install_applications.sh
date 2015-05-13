@@ -13,7 +13,8 @@ sudo apt-get update
 
 echo ' '
 echo 'Installing basic Packages'
-sudo apt-get install sublime-text-installer git python2.7 idle-python2.7 ipython npm google-chrome-stable skype
+sudo apt-get install sublime-text-installer git python2.7 idle-python2.7 ipython npm google-chrome-stable skype pstack
+
 
 echo 'Installing networking utilities'
 sudo apt-get install ansible python-pip vlc make vim traceroute nmap openssh-server qemu-kvm virt-manager
