@@ -13,7 +13,7 @@ sudo apt-get update
 
 echo ' '
 echo 'Installing basic Packages'
-sudo apt-get install sublime-text-installer git python2.7 idle-python2.7 ipython npm google-chrome-stable skype pstack sshfs
+sudo apt-get install sublime-text-installer git git-flow  python2.7 idle-python2.7 ipython npm google-chrome-stable skype pstack sshfs
 
 
 echo 'Installing networking utilities'
