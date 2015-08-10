@@ -28,3 +28,7 @@ sudo apt-get install openjdk-7-jdk openjdk-7-jre
 echo ' '
 echo 'Installing pip packages'
 sudo pip install django flask bottle Jinja2
+
+echo ' '
+echo 'Installing system tools'
+sudo apt-get install iotop htop meld
