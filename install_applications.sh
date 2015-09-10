@@ -31,4 +31,4 @@ sudo pip install django flask bottle Jinja2
 
 echo ' '
 echo 'Installing system tools'
-sudo apt-get install iotop htop meld
+sudo apt-get install iotop htop meld tree
