@@ -1,4 +1,5 @@
 import click
+import os
 
 @click.command()
 @click.option('--count', default=1, help='Number of greetings.')
@@ -11,8 +12,10 @@ def hello(count, name, number, url):
     print 'Count is ', count
     print 'Number is ', number
     print 'URL is ', url
+    click.echo(os.system('curl '+url+number))
     for x in range(count):
         click.echo('Hello %s!' % name)
+
 
 if __name__ == '__main__':
     hello()
