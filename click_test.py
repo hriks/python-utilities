@@ -5,7 +5,7 @@ import os
 @click.option('--count', default=1, help='Number of greetings.')
 @click.option('--name', prompt='Your name',help='The person to greet.')
 @click.option('--number', default="8791134412", help='Required Phone Number')
-@click.option('--url', default="http://dnd.knowlarity.com//api/v1/singlenum/", help='Required URL')
+@click.option('--url', default="http://ncprstatus.in/api/v1/status?numbers=", help='Required URL')
 
 def hello(count, name, number, url):
     """Simple program that greets NAME for a total of COUNT times."""
