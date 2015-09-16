@@ -27,7 +27,7 @@ sudo apt-get install openjdk-7-jdk openjdk-7-jre
 
 echo ' '
 echo 'Installing pip packages'
-sudo pip install django flask bottle Jinja2
+sudo pip install django flask bottle Jinja2 prettytable virtualenv
 
 echo ' '
 echo 'Installing system tools'
