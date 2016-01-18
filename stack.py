@@ -97,3 +97,4 @@ if __name__ == "__main__":
                 break
             print("Popped: " + str(s.pop()))
             print("Current stack: " + str(s))
+            
