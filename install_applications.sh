@@ -32,3 +32,8 @@ sudo pip install django flask bottle Jinja2 prettytable virtualenv
 echo ' '
 echo 'Installing system tools'
 sudo apt-get install iotop htop meld tree
+
+echo ''
+echo 'Creating alias'
+alias l="ls -ltr"
+alias c="clear"
