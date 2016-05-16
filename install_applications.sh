@@ -6,28 +6,27 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 echo 'Adding repositories'
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
-sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+#sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 
 echo 'Updating repositories'
 sudo apt-get update
 
 echo ' '
 echo 'Installing basic Packages'
-sudo apt-get install -y sublime-text-installer git git-flow  python2.7 idle-python2.7 pep8 pep257 ipython npm google-chrome-stable skype pstack sshfs linux-tools-generic linux-tools-common linux-cloud-tools-generic
+sudo apt-get install -y sublime-text-installer git git-flow  python2.7 idle-python2.7 pep8 pep257 ipython npm skype pstack sshfs linux-tools-generic linux-tools-common linux-cloud-tools-generic
 
 
 echo 'Installing networking utilities'
-sudo apt-get install ansible python-pip vlc make vim traceroute nmap openssh-server qemu-kvm virt-manager
+sudo apt-get install python-pip vlc make vim traceroute nmap openssh-server qemu-kvm virt-manager
 
 echo 'Installing compression utilities'
 sudo apt-get install p7zip-full
 
 echo 'Installing languages'
-sudo apt-get install openjdk-7-jdk openjdk-7-jre
 
 echo ' '
 echo 'Installing pip packages'
-sudo pip install django flask bottle Jinja2 prettytable virtualenv
+sudo pip install Jinja2 prettytable virtualenv
 
 echo ' '
 echo 'Installing system tools'
